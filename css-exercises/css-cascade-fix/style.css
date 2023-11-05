@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* I reoredered the .para and .small-para before the grouping */
+  .para {
+    font-size: 22px;
+  }
+
+  .small-para {
+    font-size: 14px;
+  }
+  
+  .para, .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  
+/* Rearranged the bottom three expressions to make use of shared styles */ 
+
+  .confirm {
+    background: green;
+    color: white;
+  } 
+  
+  .cancel {
+    background: white;
+    color: black;
+  }
+
+  .button {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .text.child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+/*  Removed the div class  */
+
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
